@@ -1,0 +1,63 @@
+body {
+  background-color: #393e46;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Baloo 2", sans-serif;
+  text-align: center;
+  color: #eeeeee;
+}
+main {
+  flex: 1;
+}
+h1 {
+  font-family: "Bangers", cursive;
+  font-size: clamp(70px, 10vw, 100px);
+  letter-spacing: 2px;
+  color: #eeeeee;
+}
+h2 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 2px;
+  color: #eeeeee;
+}
+.red {
+  color: rgba(255, 0, 0, 0.715);
+}
+.black {
+  color: #1a1a1a;
+  background: #eeeeee;
+  padding: 0 10px;
+  border-radius: 6px;
+}
+
+footer p {
+  font-family: "Bangers", cursive;
+  color: #eeeeee;
+  letter-spacing: 1px;
+}
+.h1-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.player-space {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.players {
+  font-size: 32px;
+  margin-bottom: 42px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.dice {
+  height: clamp(200px, 25vw, 250px);
+  width: clamp(200px, 25vw, 250px);
+  margin: 0 auto;
+}
